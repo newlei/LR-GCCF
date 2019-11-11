@@ -1,4 +1,4 @@
-# LR-GCCF
+# LR-GCCF-AAAI20
 Revisiting Graph based Collaborative Filtering: A Linear Residual Graph Convolutional Network Approach
 
 ![Overall_framework](figure/Overall_framework.jpg)
