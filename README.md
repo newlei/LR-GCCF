@@ -44,12 +44,26 @@ cd code
 - Train a model:
 
 ```python
-#!./HASC
+#!./LR-GCCF/code
 cd LR-GCCF
 cd code
+#for amazon dataset
 python train_amazon.py
+#for gowalla dataset
+python train_gowalla.py
 ```
 
+- Train a model:
+
+```python
+#!./LR-GCCF/code
+cd LR-GCCF
+cd code
+#for amazon dataset
+python test_amazon.py
+#for gowalla dataset
+python test_gowalla.py
+```
 
 
 ## Citation 
