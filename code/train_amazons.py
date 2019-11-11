@@ -29,7 +29,7 @@ import evaluate
 from shutil import copyfile
 
 
-dataset_base_path='../data/amazon-book'  
+dataset_base_path='./data/amazon-book'  
  
 ##gowalla
 user_num=52643
@@ -40,7 +40,7 @@ top_k=20
 num_negative_test_val=-1##all 
   
 
-run_id="s3"
+run_id="s0"
 print(run_id)
 dataset='amazon-book'
 path_save_base='./log/'+dataset+'/newloss'+run_id

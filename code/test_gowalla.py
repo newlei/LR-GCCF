@@ -29,7 +29,7 @@ import evaluate
 from shutil import copyfile
 
 
-dataset_base_path='../data/gowalla'  
+dataset_base_path='./data/gowalla'  
  
 ##gowalla
 user_num=29858
@@ -40,11 +40,11 @@ top_k=20
 num_negative_test_val=-1##all   
 
 start_i_test=130
-end_i_test=250
+end_i_test=200
 setp=1
  
 
-run_id="s4"
+run_id="s0"
 print(run_id)
 dataset='gowalla'
 path_save_base='./log/'+dataset+'/newloss'+run_id
