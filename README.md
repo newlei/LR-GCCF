@@ -53,7 +53,7 @@ python train_amazon.py
 python train_gowalla.py
 ```
 
-- Train a model:
+- Test a model:
 
 ```python
 #!./LR-GCCF/code
