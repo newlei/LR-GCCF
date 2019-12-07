@@ -49,7 +49,7 @@ if (os.path.exists(path_save_base)):
 else:
     os.makedirs(path_save_base)   
 result_file=open(path_save_base+'/results.txt','w+')#('./log/results_gcmc.txt','w+')
-copyfile('./s_train_amazon.py', path_save_base+'/s_train_amazon'+run_id+'.py')
+copyfile('./train_amazon.py', path_save_base+'/train_amazon'+run_id+'.py')
 
 path_save_model_base='../newlossModel/'+dataset+'/s'+run_id
 if (os.path.exists(path_save_model_base)):
