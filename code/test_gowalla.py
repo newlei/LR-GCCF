@@ -54,7 +54,7 @@ else:
     print('error') 
     pdb.set_trace() 
 result_file=open(path_save_base+'/results_hdcg_hr.txt','a')#('./log/results_gcmc.txt','w+')
-copyfile('./s_test_gowalla.py', path_save_base+'/s_test_gowalla'+run_id+'.py')
+copyfile('./test_gowalla.py', path_save_base+'/test_gowalla'+run_id+'.py')
 
 path_save_model_base='../newlossModel/'+dataset+'/s'+run_id
 if (os.path.exists(path_save_model_base)):
