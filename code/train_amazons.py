@@ -29,7 +29,7 @@ import evaluate
 from shutil import copyfile
 
 
-dataset_base_path='./data/amazon-book'  
+dataset_base_path='../data/amazon-book'  
  
 ##gowalla
 user_num=52643
