@@ -29,7 +29,7 @@ import evaluate
 from shutil import copyfile
 
 
-dataset_base_path='./data/gowalla'  
+dataset_base_path='../data/gowalla'  
  
 ##gowalla
 user_num=29858
