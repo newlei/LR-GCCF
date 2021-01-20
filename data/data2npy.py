@@ -51,7 +51,7 @@ for _, line in enumerate(links_file):
     for i_id in tmp[1:]: 
         test_data_user[u_id].add(int(i_id))
         test_data_item[int(i_id)].add(u_id)
-np.save('./datanpy/training_set.npy',[test_data_user,test_data_item,num_u_i]) 
+np.save('./datanpy/testing_set.npy',[test_data_user,test_data_item,num_u_i]) 
 print(num_u,num_u_i)
 
 
@@ -69,7 +69,7 @@ for _, line in enumerate(links_file):
     for i_id in tmp[1:]: 
         val_data_user[u_id].add(int(i_id))
         val_data_item[int(i_id)].add(u_id)
-np.save('./datanpy/training_set.npy',[val_data_user,val_data_item,num_u_i]) 
+np.save('./datanpy/val_set.npy',[val_data_user,val_data_item,num_u_i]) 
 print(num_u,num_u_i)
 
 
