@@ -181,11 +181,11 @@ testing_dataset_loss = data_utils.BPRData(
 testing_loader_loss = DataLoader(testing_dataset_loss,
         batch_size=batch_size, shuffle=False, num_workers=0)
 
-val_dataset_loss = data_utils.BPRData(
-        train_dict=val_user_set, num_item=item_num, num_ng=5, is_training=True,\
-        data_set_count=val_set_count,all_rating=user_rating_set_all)
-val_loader_loss = DataLoader(val_dataset_loss,
-        batch_size=batch_size, shuffle=False, num_workers=0)
+# val_dataset_loss = data_utils.BPRData(
+#         train_dict=val_user_set, num_item=item_num, num_ng=5, is_training=True,\
+#         data_set_count=val_set_count,all_rating=user_rating_set_all)
+# val_loader_loss = DataLoader(val_dataset_loss,
+#         batch_size=batch_size, shuffle=False, num_workers=0)
    
    
 model = BPR(user_num, item_num, factor_num,sparse_u_i,sparse_i_u,d_i_train,d_j_train)
@@ -236,8 +236,8 @@ for epoch in range(350):
     
     model.eval()   
     # ######test and val###########   
-    val_loader_loss.dataset.ng_sample() 
-    val_loss=evaluate.metrics_loss(model,val_loader_loss,batch_size)  
+    #val_loader_loss.dataset.ng_sample() 
+    #val_loss=evaluate.metrics_loss(model,val_loader_loss,batch_size)  
     # str_print_train+=' val loss:'+str(val_loss)
 
     testing_loader_loss.dataset.ng_sample() 
