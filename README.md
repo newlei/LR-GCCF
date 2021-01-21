@@ -73,7 +73,7 @@ In short, the calculated NDCG in the original NGCF is not consistent with the or
 
 NDCG=DCG/IDCG. The maximum possible DCG is called Ideal DCG (IDCG), in other words, IDCG is the DCG value of the best ranking function on a dataset. so for a specific user in test data, the best ranking is unique, then the IDCG is unchanging. However, in NGCF [code](https://github.com/xiangwang1223/neural_graph_collaborative_filtering), the IDCG is changing. The calculation of the dcg_max(IDCG) depends on parameters r, but r is not the best ranking and will change according to the predicted of the model. Thus, the results of NGCF are based on a wrong implementation of NDCG.
 
-You also can refer to the [link](https://github.com/xiangwang1223/neural_graph_collaborative_filtering/issues/34) and [link](https://github.com/kuandeng/LightGCN/issues/1)
+You also can refer to the [link](https://github.com/xiangwang1223/neural_graph_collaborative_filtering/issues/34) and [link](https://github.com/kuandeng/LightGCN/issues/1) is the follow-up work of NGCF authors, this link also explains problem of NDCG.
 
 
 ## Citation 
