@@ -66,7 +66,7 @@ python test_gowalla.py
 ```
 
 
-### A note: the results of NGCF in our paper
+### Note: the results of NGCF in our paper
 Why is there a big gap between the NGCF results in the paper and the original NGCF?
 In short, the calculated NDCG in the original NGCF is not consistent with the original NDCG. We have fixed it and show the correct results. So there a big gap in the results of NGCF.
 
@@ -126,7 +126,7 @@ Besides, you may find these following works are useful for understanding social 
 
 
 ## Acknowledgments
-We thank LMC lab. for providing GPU and dataset for us.
+We thank LMC lab..
 
 
 
