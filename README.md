@@ -75,7 +75,7 @@ NDCG=DCG/IDCG. The maximum possible DCG is called Ideal DCG (IDCG), in other wor
 
 You also can refer to the [link](https://github.com/xiangwang1223/neural_graph_collaborative_filtering/issues/34) and [link](https://github.com/kuandeng/LightGCN/issues/1) is the follow-up work of NGCF authors, this link also explains problem of NDCG.
 
-**Note**: If you have questions about NGCF, please contact the author of NGCF or creating gitHub issues under the official code[link](https://github.com/xiangwang1223/neural_graph_collaborative_filtering).
+**Note**: If you have questions about NGCF, please contact the author of NGCF or create github issues under the official code~[link](https://github.com/xiangwang1223/neural_graph_collaborative_filtering).
 
 
 ## Citation 
