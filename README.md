@@ -48,7 +48,7 @@ cd code
 cd LR-GCCF
 cd code
 #for amazon dataset
-python train_amazon.py
+python train_amazons.py
 #for gowalla dataset
 python train_gowalla.py
 ```
@@ -60,7 +60,7 @@ python train_gowalla.py
 cd LR-GCCF
 cd code
 #for amazon dataset
-python test_amazon.py
+python test_amazons.py
 #for gowalla dataset
 python test_gowalla.py
 ```
